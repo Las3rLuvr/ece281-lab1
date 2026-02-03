@@ -29,7 +29,7 @@ Insert your truth table here
 
 $$
 Y = A'D + AD'
-$$
+### Boolean Equation
 
 ### Digital Simulations
 
