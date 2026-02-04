@@ -7,15 +7,11 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
           <string>Label</string>
           <string>D</string>
         </entry>
       </elementAttributes>
-      <pos x="240" y="-40"/>
+      <pos x="-180" y="-120"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -29,7 +25,7 @@
           <string>C</string>
         </entry>
       </elementAttributes>
-      <pos x="200" y="-40"/>
+      <pos x="120" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -57,7 +53,7 @@
           <string>A</string>
         </entry>
       </elementAttributes>
-      <pos x="120" y="-40"/>
+      <pos x="200" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -116,7 +112,7 @@ D as the least-significant bit.</string>
           </testData>
         </entry>
       </elementAttributes>
-      <pos x="700" y="-180"/>
+      <pos x="680" y="-180"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -132,7 +128,7 @@ S is strobe.  When strobe is high the output is always low,
   otherwise it&apos;s the selected data line.</string>
         </entry>
       </elementAttributes>
-      <pos x="-180" y="380"/>
+      <pos x="780" y="-80"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
@@ -142,20 +138,56 @@ S is strobe.  When strobe is high the output is always low,
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="300" y="-60"/>
+      <pos x="0" y="-80"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>Y</string>
         </entry>
       </elementAttributes>
-      <pos x="100" y="280"/>
+      <pos x="80" y="320"/>
     </visualElement>
   </visualElements>
   <wires>
+    <wire>
+      <p1 x="-40" y="-20"/>
+      <p2 x="0" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="-20"/>
+      <p2 x="80" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-20"/>
+      <p2 x="40" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="260"/>
+      <p2 x="-80" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="260"/>
+      <p2 x="40" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="260"/>
+      <p2 x="0" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="260"/>
+      <p2 x="-40" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="-120"/>
+      <p2 x="0" y="-120"/>
+    </wire>
     <wire>
       <p1 x="160" y="220"/>
       <p2 x="200" y="220"/>
@@ -165,16 +197,76 @@ S is strobe.  When strobe is high the output is always low,
       <p2 x="160" y="220"/>
     </wire>
     <wire>
+      <p1 x="160" y="-40"/>
+      <p2 x="160" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-120"/>
+      <p2 x="0" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-40"/>
+      <p2 x="0" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="200"/>
+      <p2 x="0" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-20"/>
+      <p2 x="0" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="-20"/>
+      <p2 x="80" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="200"/>
+      <p2 x="80" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="-120"/>
+      <p2 x="-180" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="-20"/>
+      <p2 x="-40" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="200"/>
+      <p2 x="-40" y="260"/>
+    </wire>
+    <wire>
       <p1 x="200" y="200"/>
       <p2 x="200" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="-40"/>
+      <p2 x="200" y="80"/>
     </wire>
     <wire>
       <p1 x="200" y="220"/>
       <p2 x="200" y="260"/>
     </wire>
     <wire>
+      <p1 x="40" y="-20"/>
+      <p2 x="40" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="200"/>
+      <p2 x="40" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="-40"/>
+      <p2 x="120" y="80"/>
+    </wire>
+    <wire>
       <p1 x="-80" y="20"/>
       <p2 x="-80" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="200"/>
+      <p2 x="-80" y="260"/>
     </wire>
   </wires>
   <measurementOrdering/>
