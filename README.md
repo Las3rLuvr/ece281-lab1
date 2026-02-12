@@ -24,3 +24,5 @@ Then it **elaborates** `thirtyOneDayMonth_tb` entity.
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+Doc: For this assignemnt, I used my ICE2, ICE3, the github. I googled the vhdl refrence sheet mux syntax and used that file's syntax
